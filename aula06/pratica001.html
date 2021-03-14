@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 01</title>
+    <style>
+        body{
+            background-color: beige;
+            font: normal 24pt Arial;
+        }
+
+        /*cor fundo*/        
+    </style>
+</head>
+<body>
+
+    <h1>Curso de JavaScript</h1>
+
+    <script>
+
+        window.alert('Bem vindo ao curso de JavaScript!')
+        window.confirm('Deseja dar início às aulas?')
+        window.alert('Excelente! Vamos começar preenchendo algumas informações básicas.')
+        var nome = window.prompt('Por favor, digite seu nome: ')
+        var idade = Number(window.prompt('Digite a sua idade: '))
+        var telefone = window.prompt('Qual o seu telefone?')
+        var endereco = window.prompt('Agora digite o seu endereco:')
+
+        document.write(`Bem vindo(a), ${nome}. Aqui está sua ficha cadastral:<br/>Idade: ${idade} anos<br/>`)
+        document.write(`Telefone: ${telefone}. <br/>Endereço: ${endereco}`)              
+
+    </script>
+    
+</body>
+</html>
